@@ -1,3 +1,6 @@
+h1 {
+  text-align: center;
+}
 section {
   margin: 0 auto;
   width: 600px;
@@ -13,4 +16,22 @@ div {
   aspect-ratio: 1;
   border: 2px solid royalblue;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+#new-game {
+  padding: 20px 30px;
+  margin: 30px auto;
+  background-color: royalblue;
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  border: none;
+}
+
+#new-game:disabled {
+  background-color: grey;
 }
